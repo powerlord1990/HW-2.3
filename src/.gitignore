@@ -1,0 +1,26 @@
+/ out /
+/ цель /
+! .mvn / wrapper / maven-wrapper.jar
+
+# ## STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-кэш
+
+# ## IntelliJ IDEA ###
+.idea
+* .iws
+* .iml
+* .ipr
+
+# ## NetBeans ###
+/ nbproject / private /
+/ построить /
+/ nbbuild /
+/ dist /
+/ nbdist /
+/ .nb-gradle /

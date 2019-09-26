@@ -11,7 +11,9 @@ public class TaxiService {
             double discountPrice = price * percentDiscount;
             if (price - discountPrice > maxDiscount) {
                 price -= maxDiscount;
-            } else price = discountPrice;
+            } else {
+                price = discountPrice;
+            }
         }
         return price;
     }

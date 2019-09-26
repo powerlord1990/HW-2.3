@@ -8,10 +8,10 @@ public class TaxiService {
     double pricePerTrip(double distance) {
         double price = kmCost * distance + submissionCost;
         if (price > sumWithDiscount) {
-            double price1 = price * percentDiscount;
-            if (price - price1 > maxDiscount) {
+            double discountPrice = price * percentDiscount;
+            if (price - discountPrice > maxDiscount) {
                 price -= maxDiscount;
-            } else price = price1;
+            } else price = discountPrice;
         }
         return price;
     }

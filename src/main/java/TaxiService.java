@@ -1,4 +1,4 @@
-public class Taxiservice {
+public class TaxiService {
     double submissionCost = 60;
     double kmCost = 20;
     double percentDiscount = 0.95;

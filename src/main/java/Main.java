@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        Taxiservice taxiride = new Taxiservice();
+        TaxiService taxiRide = new TaxiService();
         double kilometer = 56;
 
-        double totalCost = taxiride.pricePerTrip(kilometer);
+        double totalCost = taxiRide.pricePerTrip(kilometer);
         System.out.println(totalCost);
     }
 }
